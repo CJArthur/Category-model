@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints
+
+# Virtual environment
+venv/
+env/
+
+# VSCode
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Datasets and output files
+*.csv
+*.parquet
+*.xlsx
+*.xls
+*.json
+app/input/
+app/dataset/
+app/output/
+*.png
+*.jpg
+
+# Model artifacts
+app/models/
+*.h5
+*.pt
+*.onnx
+*.sav
+
+# Docker
+*.tar
+*.pid
+*.sock
+.dockerignore
+
+# Others
+.env
